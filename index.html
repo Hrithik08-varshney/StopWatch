@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StopWatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main">
+        <!-- Hollow circle -->
+        <svg id="svgelem" height="200" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="100" cy="50" r="40" stroke="black" stroke-width="9" fill="none" />
+         </svg>
+         <!-- straight rectangle -->
+        <svg  class="rect" width="100" height="100">
+            <rect width="50" height="50" fill="red" stroke="black" stroke-width="4" />
+          </svg>
+          <!-- right titled rectangle -->
+          <svg  class="rect-2" width="100" height="100">
+            <rect width="50" height="50" fill="red" stroke="black" stroke-width="4" />
+          </svg>
+          <!-- left tilted rectangle -->
+          <svg  class="rect-3" width="100" height="100">
+            <rect width="50" height="50" fill="red" stroke="black" stroke-width="4" />
+          </svg>
+          <!-- rectangle behind digits -->
+          <svg  class="rect-b" width="500" height="500">
+            <rect width="400" height="150" fill="black" stroke="white" stroke-width="5" />
+          </svg>
+          <!-- buttons -->
+          <button class="btn" id="btn-1">
+            start
+           </button>
+           <button class="btn" id="btn-2">
+             stop
+           </button>
+           <!-- red circle -->
+    <svg height="700" width="1100">
+        <circle cx="750" cy="400" r="250" stroke="black" stroke-width="3" fill="red" />
+      </svg>
+      <!-- counting digits -->
+      <section class="digits">
+        <span class="hrs">00</span> :
+        <span class="min">00</span> :
+        <span class="sec">00</span>
+    </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
+<!-- cx== ki wo left se kitna right direction main jayega or usi hisab se svg ki width honi chaiye-->
+<!-- cy== ki wo upar se kitna nhice direction main jayega or usi hisab se svg ki height ayegi-->

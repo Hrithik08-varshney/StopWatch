@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.digits{
+    position: absolute;
+    top: 290px;
+    left: 570px;
+    font-size: 80px;
+    color: white;
+}
+.rect{
+    position: absolute;
+    top: 98px;
+    left: 720px;
+}
+.rect-b{
+    position: absolute;
+    top: 260px;
+    left: 550px;
+}
+#svgelem{
+    position: absolute;
+    top: 10px;
+    left: 645px;
+}
+.rect-2{
+    position: absolute;
+    top: 146px;
+    left: 850px;
+    transition: transform;
+    transform: rotate(29deg);
+}
+.rect-3{
+    position: absolute;
+    top: 120px;
+    left: 600px;
+    transition: transform;
+    transform: rotate(-28deg);
+}
+.btn{
+    position: absolute;
+    padding: 10px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    top: 470px;
+}
+#btn-1{
+    left:600px;
+}
+#btn-2{
+    left:800px;
+}
